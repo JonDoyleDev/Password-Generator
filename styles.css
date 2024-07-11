@@ -1,0 +1,132 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', sans-serif;
+    box-sizing: border-box;
+}
+
+body { 
+    background: #002339;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container { 
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container h1 { 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 8vw;
+}
+
+.container h1 span { 
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+}
+
+.container button { 
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 5vw;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 5vw;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container button img { 
+    width: 10vw;
+    margin-right: 2vw;
+}
+
+.display { 
+    width: 100%;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+    border-radius: 5px;
+}
+
+.display img { 
+    width: 10vw;
+    cursor: pointer;
+}
+
+.display img:hover { 
+    transform: scale(1.1);
+}
+
+.display input { 
+    border: 0;
+    outline: 0;
+    font-size: 6vw;
+    width: 80%;
+}
+
+#gitlink {
+    display: block;
+    margin-top: 20px;
+    color: #019f55;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#gitlink:hover {
+    color: #00cc66;
+    transform: scale(1.05);
+}
+
+#gitlink:active {
+    color: #017a3a;
+    transform: scale(1);
+}
+
+@media (min-width: 768px) {
+    .container h1 { 
+        font-size: 36px;
+    }
+
+    .container button { 
+        font-size: 22px;
+        padding: 16px 26px;
+    }
+
+    .container button img { 
+        width: 28px;
+        margin-right: 10px;
+    }
+
+    .display { 
+        padding: 26px;
+    }
+
+    .display img { 
+        width: 30px;
+    }
+
+    .display input { 
+        font-size: 24px;
+    }
+}
