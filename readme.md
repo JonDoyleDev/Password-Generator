@@ -23,7 +23,7 @@ This is a simple web-based Random Password Generator. It allows users to generat
 
 ## Background
 
-Thanks for taking the time to check out my repo! My name is Jon, I'm a 27 year-old aspiring web developer from Denver Colorado. This project was made following the tutorial in the link below, and then I optimized it for mobile, added my github link and stylized it a little bit more. The objective is primarily to solidify my JavaScript fundamentals before jumping back into React.
+Thanks for taking the time to check out my repo! I'm Jon, an aspiring web developer from Denver Colorado. This project was made following the tutorial in the link below, and then I optimized it for mobile, added my github link and stylized it a little bit more. The objective is primarily to solidify my JavaScript fundamentals before jumping back into React.
 
 ## Tutorial Link 
 
