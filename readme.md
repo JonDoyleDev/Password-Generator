@@ -19,7 +19,7 @@ This is a simple web-based Random Password Generator. It allows users to generat
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jondoyledev/random-password-generator.git
+   git clone https://github.com/jondoyledev/password-generator.git
 
 ## Background
 
